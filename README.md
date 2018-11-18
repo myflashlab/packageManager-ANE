@@ -113,6 +113,6 @@ Add your name to the below list? Donate anything more than $100 and it will be.
 <table align="left">
     <tr>
         <td align="left"><img src="http://myflashlab.github.io/sponsors/yeticgi.com.jpg" width="60" height="60"></td>
-        <td align="left"><a href="https://yeticgi.com">yeticgi.com</a><br>We’ve been solving problems on the frontier of emerging tech for a decade.</td>
+        <td align="left"><a href="http://yeticgi.com">yeticgi.com</a><br>We’ve been solving problems on the frontier of emerging tech for a decade.</td>
     </tr>
 </table>

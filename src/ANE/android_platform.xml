@@ -1,0 +1,9 @@
+<platform xmlns="http://ns.adobe.com/air/extension/30.0">
+
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.myflashlabs.packagemanager</packageName>
+			<folderName>com.myflashlabs.packagemanager-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

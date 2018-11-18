@@ -58,7 +58,22 @@
 			],
 			"manifest":[
 				{
+					"node":"<xml><uses-permission android:name=\"android.permission.INTERNET\"/></xml>",
+					"parent":"manifest",
+					"sibling":""
+				},
+				{
+					"node":"<xml><uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/></xml>",
+					"parent":"manifest",
+					"sibling":""
+				},
+				{
 					"node":"<xml><uses-sdk android:targetSdkVersion=\"26\"/></xml>",
+					"parent":"manifest",
+					"sibling":""
+				},
+				{
+					"node":"<xml><uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/></xml>",
 					"parent":"manifest",
 					"sibling":""
 				},

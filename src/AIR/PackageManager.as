@@ -16,6 +16,9 @@ import flash.desktop.NativeApplication;
  */
 public class PackageManager
 {
+	/** @private */
+	internal static const DEMO_ANE:Boolean = true;
+	
 	public static const PERMISSION_GRANTED:int = 0;
 	public static const PERMISSION_DENIED:int = -1;
 	
@@ -27,7 +30,7 @@ public class PackageManager
 	public static const SIGNATURE_UNKNOWN_PACKAGE:int = -4;
 	
 	public static const EXTENSION_ID:String = "com.myflashlab.air.extensions.packageManager";
-	public static const VERSION:String = "2.0.1";
+	public static const VERSION:String = "2.0.11";
 	
 	private static var _ex:PackageManager;
 	private var _requestCallback:Function;
@@ -178,8 +181,5 @@ public class PackageManager
 	{
 		_ex._context.call("command", "uninstallApplication", $packageName);
 	}
-	
-	/** @private */
-	internal static const DEMO_ANE:Boolean = false;
 }
 }

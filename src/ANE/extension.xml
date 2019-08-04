@@ -1,11 +1,19 @@
 <extension xmlns="http://ns.adobe.com/air/extension/30.0">
 	<id>com.myflashlab.air.extensions.packageManager</id>
-	<versionNumber>2.0.1</versionNumber>
-	<copyright>2018, MyFlashLabs Team. All rights reserved.</copyright>
+	<versionNumber>2.0.11</versionNumber>
+	<copyright>2019, MyFlashLabs Team. All rights reserved.</copyright>
 	<description>
 		<text xml:lang="en">customized adobe air native extension</text>
 	</description>
 	<platforms>
+
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>classes.jar</nativeLibrary>
+				<initializer>com.myflashlabs.packagemanager.MyExtension</initializer>
+				<finalizer>com.myflashlabs.packagemanager.MyExtension</finalizer>
+			</applicationDeployment>
+		</platform>
 
 		<platform name="Android-ARM">
 			<applicationDeployment>
@@ -45,15 +53,15 @@
 			"dependencies":[
 				{
 					"id":"com.myflashlab.air.extensions.dependency.overrideAir",
-					"v":"5.6.0"
+					"v":"6.1.11"
 				},
 				{
 					"id":"com.myflashlab.air.extensions.dependency.androidSupport.core",
-					"v":"27.1.1"
+					"v":"27.1.11"
 				},
 				{
 					"id":"com.myflashlab.air.extensions.dependency.androidSupport.v4",
-					"v":"27.1.1"
+					"v":"27.1.11"
 				}
 			],
 			"manifest":[
@@ -64,11 +72,6 @@
 				},
 				{
 					"node":"<xml><uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/></xml>",
-					"parent":"manifest",
-					"sibling":""
-				},
-				{
-					"node":"<xml><uses-sdk android:targetSdkVersion=\"26\"/></xml>",
 					"parent":"manifest",
 					"sibling":""
 				},

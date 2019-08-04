@@ -1,5 +1,8 @@
 PackageManager AIR Native Extension
 
+*Aug 4, 2019 - V2.0.11*
+* Added Android 64-bit support
+
 *Nov 17, 2018 - V2.0.1*
 * Works with OverrideAir ANE V5.6.1 or higher
 * Works with ANELAB V1.1.26 or higher

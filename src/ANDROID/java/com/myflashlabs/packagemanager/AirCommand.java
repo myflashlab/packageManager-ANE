@@ -14,14 +14,13 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.v4.content.FileProvider;
+import androidx.core.content.FileProvider;
 
 import com.adobe.fre.FREContext;
 import com.adobe.fre.FREFunction;
 import com.adobe.fre.FREObject;
 import com.adobe.air.ActivityResultCallback;
 import com.adobe.air.AndroidActivityWrapper;
-import com.adobe.air.StateChangeCallback;
 import com.myflashlab.Conversions;
 
 import org.json.JSONArray;

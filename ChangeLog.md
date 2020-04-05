@@ -1,5 +1,8 @@
 PackageManager AIR Native Extension
 
+*Apr 05, 2020 - V3.0.0*
+* Upgraded to Androidx libraries
+
 *Aug 4, 2019 - V2.0.11*
 * Added Android 64-bit support
 

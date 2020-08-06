@@ -30,7 +30,7 @@ public class PackageManager
 	public static const SIGNATURE_UNKNOWN_PACKAGE:int = -4;
 	
 	public static const EXTENSION_ID:String = "com.myflashlab.air.extensions.packageManager";
-	public static const VERSION:String = "2.0.11";
+	public static const VERSION:String = "3.0.0";
 	
 	private static var _ex:PackageManager;
 	private var _requestCallback:Function;

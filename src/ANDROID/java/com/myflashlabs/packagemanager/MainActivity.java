@@ -1,6 +1,5 @@
 package com.myflashlabs.packagemanager;
 
-import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
@@ -8,44 +7,25 @@ import android.content.pm.FeatureInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PermissionGroupInfo;
-import android.content.pm.PermissionInfo;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.LinearLayout;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.security.Permission;
-import java.security.Permissions;
-import java.util.ArrayList;
 import java.util.List;
-
-import static android.content.pm.PackageInfo.INSTALL_LOCATION_AUTO;
-import static android.content.pm.PackageInfo.INSTALL_LOCATION_INTERNAL_ONLY;
-import static android.content.pm.PackageInfo.INSTALL_LOCATION_PREFER_EXTERNAL;
-import static android.content.pm.PackageManager.GET_META_DATA;
-import static android.content.pm.PackageManager.SIGNATURE_FIRST_NOT_SIGNED;
-import static android.content.pm.PackageManager.SIGNATURE_MATCH;
-import static android.content.pm.PackageManager.SIGNATURE_NEITHER_SIGNED;
-import static android.content.pm.PackageManager.SIGNATURE_NO_MATCH;
-import static android.content.pm.PackageManager.SIGNATURE_SECOND_NOT_SIGNED;
-import static android.content.pm.PackageManager.SIGNATURE_UNKNOWN_PACKAGE;
 
 public class MainActivity extends AppCompatActivity
 {

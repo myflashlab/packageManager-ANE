@@ -1,7 +1,7 @@
 <extension xmlns="http://ns.adobe.com/air/extension/30.0">
 	<id>com.myflashlab.air.extensions.packageManager</id>
-	<versionNumber>2.0.11</versionNumber>
-	<copyright>2019, MyFlashLabs Team. All rights reserved.</copyright>
+	<versionNumber>3.0.0</versionNumber>
+	<copyright>2020, MyFlashLabs Team. All rights reserved.</copyright>
 	<description>
 		<text xml:lang="en">customized adobe air native extension</text>
 	</description>
@@ -56,12 +56,12 @@
 					"v":"6.1.11"
 				},
 				{
-					"id":"com.myflashlab.air.extensions.dependency.androidSupport.core",
-					"v":"27.1.11"
+					"id":"com.myflashlab.air.extensions.dependency.androidx.core",
+					"v":"1.1.0"
 				},
 				{
-					"id":"com.myflashlab.air.extensions.dependency.androidSupport.v4",
-					"v":"27.1.11"
+					"id":"com.myflashlab.air.extensions.dependency.androidx.lifecycle",
+					"v":"1.1.0"
 				}
 			],
 			"manifest":[
